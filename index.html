@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Para conectar la hoja de estilos-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor Principal -->
+    <div class="contenedor-principal">
+        <!-- Informacion -->
+        <div class="contenedor-general">
+            <!-- Descripcion -->
+            <div class="descripcion">
+                <h2 class="descripcion-profesion">Developer Junior</h2>
+                <h1 class="nombre">David Alejandro Albornoz</h1>
+                <p class="parrafo">
+                    Ingeniero Informático recién egresado con una tecnología en programación. menos de 1 año de experiencia en el sector de tecnología, pero con un gran interés en seguir ampliando mis conocimientos. Tengo gran capacidad para adaptarme a todo tipo de entornos y aportar siempre lo mejor de mí. Me caracterizo por mi facilidad para el trabajo en equipo y mi entusiasmo por aprender y desarrollar mis habilidades. En busca de una oportunidad laboral en la que adquirir más experiencia
+                </p>
+            </div>
+            <!-- Proyectos -->
+            <div class="proyectos">
+                <h3 class="titulo-seccion-principal">Proyectos</h3>
+                <ol class="lista-proyectos">
+                <!-- <ol> para lista ordenada  y <li> para un elemento de la lista(se enumeran)-->
+                <!-- <a> para enlaces, pero toca configurar la etiqueta con href, este indica a donde nos va a llevar la etiqueta-->
+                    <li class="primer-elemento-lista"><!-- class primer elemento lista es un ideintificador para dicha lista-->
+                        <a class="enlace-proyectos" href="https://www.youtube.com/watch?v=Eg6GHR6zyfM&ab_channel=DavidAlejandroAlbornozBurbano">Sistema software para la ejecución de pruebas de usabilidadbajo el enfoque de Mouse Tracking</a>
+                        <span class="puntos-proyectos">............................................</span><!-- etiqueta <span> permite luego poner estilos  -->
+                        <span>[ JAVA ]</span>
+                    </li>
+                    <li class="primer-elemento-lista">
+                        <a class="enlace-proyectos" href="https://youtu.be/lCqWaFV7Vuc">Software inventario equipos tecnologicos</a>
+                        <span class="puntos-proyectos">...........</span>
+                        <span>[ PHP, Laravel ]</span>
+                    </li>
+                    <!-- <li class="primer-elemento-lista">
+                        <a class="enlace-proyectos" href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                        <span class="puntos-proyectos">........</span>
+                        <span>[ React.js, Node.js ]</span>
+                    </li>    -->
+                </ol>
+            </div>
+            <!-- Experiencia Laboral -->
+            <div class="experiencia-laboral">
+                <h3 class="titulo-seccion-principal">Experiencia Laboral</h3>
+                <!-- Empresa 1 -->
+                <div>
+                    <h4 class="subtitulo-experiencia">Pasante Ingeniero Informático</h4>
+                    <p class="fecha-experiencia">Enero 2022 - Agosto 2022  |  Popayán</p>
+                    <ul class="lista-experiencia"><!-- Etiqueta <ul> lista no ordenada -->
+                        <li class="elemento-experiencia">
+                            Evidenciar, analizar, evaluar y ayudar a corregir falencias en la metodología de trabajo aplicada en los desarrollos de software de la empresa.
+                        </li>
+                        <li class="elemento-experiencia">
+                            Diseño y Desarrollo de un módulo de inventario para los equipos tecnológicos, muebles e insumos de la empresa, usando PHP, MySQL y el Framework Laravel usando Scrum como metodología de trabajo.
+                        </li>
+                        <li class="elemento-experiencia">
+                            Elaboración de una Guía de control documental SAD
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Educacion -->
+            <div class="educacion">
+                <h3 class="titulo-seccion-principal">Educación</h3>
+                <div>
+                    <h4 class="institucion">Institución Universitaria Colegio Mayor del Cauca</h4>
+                    <h5 class="texto-resaltado">Ingeniero Informático</h5>
+                    <p class="fecha-experiencia">2022 | Popayán-Cauca</p>
+                </div>
+                <div>
+                    <h4 class="institucion">Institución Universitaria Colegio Mayor del Cauca</h4>
+                    <h5 class="texto-resaltado">Tecnólogo Desarrollador Software</h5>
+                    <p class="fecha-experiencia">2019 | Popayán-Cauca</p>
+                </div>
+            </div>
+            <!-- Otros Cursos -->
+            <div>
+                <h3 class="titulo-seccion-principal">Otros Cursos</h3>
+                <div>
+                    <h4 class="institucion">Oracle Academy</h4>
+                    <h5 class="texto-resaltado">Java Fundamentals</h5>
+                    <p class="fecha-experiencia">2022 | Popayán-Cauca</p>
+                </div>
+                <div>
+                    <h4 class="institucion">Oracle Academy</h4>
+                    <h5 class="texto-resaltado">Java Foundations</h5>
+                    <p class="fecha-experiencia">2022 | Popayán-Cauca</p>
+                </div>
+            </div>
+        </div>
+        <!-- Informacion Secundaria -->
+        <aside class="informacion-lateral"><!-- Etiqueta semantica <aside> -->
+            <img class="foto" src=".\images\alejo.jpg" alt="Mi foto de perfil" width="300">
+            <!-- Contactos -->
+            <div class="contactos">
+                <h3 class="titulo-lateral">Contacts</h3>
+                <div>
+                    <span class="tipo-contacto">Cel: </span>
+                        <a class="contacto-info" href="tel:+57 3133393864"> +57 3133393864</a>                    
+                </div>
+                <div>
+                    <span class="tipo-contacto">Email: </span>
+                        <a class="contacto-info" href="mailto:alejo_leon90@hotmail.com"> alejo_leon90@hotmail.com</a>                    
+                </div>
+            </div>
+            <!-- Habilidades Tecnicas -->
+            <div class="habilidades-tecnicas">
+                <h3 class="titulo-lateral">Tech Skills</h3>
+                <ul class="lista-lateral">
+                    <li><span class="elemento-lista-lateral"> Java.</span></li>
+                    <li><span class="elemento-lista-lateral"> PHP, HTML, JavaScript y CSS.</span></li>
+                    <li><span class="elemento-lista-lateral"> Python.</span></li>
+                    <li><span class="elemento-lista-lateral"> MySQL.</span></li>
+                </ul>
+            </div>
+            <!-- Habilidades Blandas -->
+            <div class="habilidades-blandas">
+                <h3 class="titulo-lateral">Soft Skills</h3>
+                <ul class="lista-lateral">
+                    <li><span class="elemento-lista-lateral">Scrum</span></li>
+                    <li><span class="elemento-lista-lateral">Agile</span></li>
+                    <li><span class="elemento-lista-lateral">Trabajo en Equipo</span></li>
+                </ul>
+            </div>
+
+        </aside>
+    </div>
+
+</body>
+</html>
